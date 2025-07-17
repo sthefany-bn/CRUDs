@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+}
+
+.header {
+    background-color: #4f6df5;
+    padding: 20px 0;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.principal {
+    padding: 20px;
+    margin: auto 110px;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.save {
+    background-color: #4f6df5;
+    color: black;
+}
+
+.cancel {
+    background-color: #eb4444;
+    color: black;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+.alert {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.success {
+    background-color: #3ab96b;
+    color: #d4edda;
+}
+
+.danger {
+    background-color: #721c24;
+    color: #f8d7da;
+}
+
+.separa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
